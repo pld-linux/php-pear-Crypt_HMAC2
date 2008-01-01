@@ -30,8 +30,8 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
 Implementacja kodu Hashed Message Authentication Code dla PHP5. Pakiet
-mo¿e skorzystaæ z modu³ów hash oraz mhash w celu poszerzenia zakresu
-kryptograficznych funkcji skrótu poza natywnie zaimplementowane MD5
+moÅ¼e skorzystaÄ‡ z moduÅ‚Ã³w hash oraz mhash w celu poszerzenia zakresu
+kryptograficznych funkcji skrÃ³tu poza natywnie zaimplementowane MD5
 oraz SHA1.
 
 Ta klasa ma w PEAR status: %{_status}.
