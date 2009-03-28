@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Implementation of Hashed Message Authentication Code for PHP5
 Summary(pl.UTF-8):	%{_pearname} - implementacja kodu HMAC (Hashed Message Authentication Code) dla PHP5
 Name:		php-pear-%{_pearname}
-Version:	0.2.0
-Release:	3
+Version:	0.2.1
+Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	51aa5859a6db1ff56f5e84e3055d76ac
+# Source0-md5:	b2d35e1844d8a319ec3bd8e7b3207450
 URL:		http://pear.php.net/package/Crypt_HMAC2/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -57,8 +57,6 @@ Testy dla PEAR::%{_pearname}.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}/Crypt
 %pear_package_install
-mv -f $RPM_BUILD_ROOT%{php_pear_dir}/{,Crypt}/HMAC2
-mv -f $RPM_BUILD_ROOT%{php_pear_dir}/{,Crypt}/HMAC2.php
 
 %clean
 rm -rf $RPM_BUILD_ROOT
