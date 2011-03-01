@@ -7,7 +7,7 @@ Summary:	%{_pearname} - Implementation of Hashed Message Authentication Code for
 Summary(pl.UTF-8):	%{_pearname} - implementacja kodu HMAC (Hashed Message Authentication Code) dla PHP5
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	2
+Release:	3
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
