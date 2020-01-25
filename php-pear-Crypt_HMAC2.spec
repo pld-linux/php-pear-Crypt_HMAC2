@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Crypt
 %define		_subclass	HMAC2
 %define		_status		stable
